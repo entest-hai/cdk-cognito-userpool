@@ -9,9 +9,15 @@ const project = new awscdk.AwsCdkConstructLibrary({
   projenrcTs: true,
   repositoryUrl: 'git@github.com:entest-hai/cdk-cognito-userpool.git',
 
-  // deps: [],                /* Runtime dependencies of this module. */
-  // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],             /* Build dependencies for this module. */
-  // packageName: undefined,  /* The "name" in package.json. */
+  peerDeps: ['aws-cdk-lib', 'constructs'],
+  publishToPypi: {
+    distName: 'entest-cognito-userpool',
+    module: 'entest_cognito_userpool',
+  },
 });
+
+const common_exclude = ['cdk.out', 'cdk.context.json'];
+project.npmignore!.exclude(...common_exclude);
+project.gitignore!.exclude(...common_exclude);
+
 project.synth();

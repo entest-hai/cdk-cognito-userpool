@@ -1,5 +1,5 @@
-import { Hello } from '../src';
+import { IntegTesting } from '../src/integ.default';
 
-test('hello', () => {
-  expect(new Hello().sayHello()).toBe('hello, world!');
+test('integration test', () => {
+  new IntegTesting();
 });
