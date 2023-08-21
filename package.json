@@ -2,7 +2,7 @@
   "name": "cdk-cognito-userpool",
   "repository": {
     "type": "git",
-    "url": "git@github.com:entest-hai/cdk-cognito-userpool.git"
+    "url": "https://github.com/entest-hai/cdk-cognito-userpool.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -68,7 +68,7 @@
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "jest": {
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.ts?(x)",
