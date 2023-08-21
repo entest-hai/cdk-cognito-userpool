@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   jsiiVersion: '~5.0.0',
   name: 'cdk-cognito-userpool',
   projenrcTs: true,
-  repositoryUrl: 'git@github.com:entest-hai/cdk-cognito-userpool.git',
+  repositoryUrl: 'https://github.com/entest-hai/cdk-cognito-userpool.git',
 
   peerDeps: ['aws-cdk-lib', 'constructs'],
   publishToPypi: {
