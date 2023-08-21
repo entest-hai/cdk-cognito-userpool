@@ -11,8 +11,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
 
   peerDeps: ['aws-cdk-lib', 'constructs'],
   publishToPypi: {
-    distName: 'entest-cognito-userpool',
-    module: 'entest_cognito_userpool',
+    distName: 'cdk-cognito-userpool',
+    module: 'cdk-cognito-userpool',
   },
 });
 

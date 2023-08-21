@@ -115,8 +115,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "entest-cognito-userpool",
-        "module": "entest_cognito_userpool"
+        "distName": "cdk-cognito-userpool",
+        "module": "cdk-cognito-userpool"
       }
     },
     "tsc": {

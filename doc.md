@@ -117,6 +117,12 @@ git switch github-actions/upgrade-main
 git pull origin git switch github-actions/upgrade-main
 ```
 
+tag and push
+
+```bash
+it push --follow-tags origin main
+```
+
 ## Reference
 
 - [example lambda](https://github.com/seeebiii/projen-test/blob/main/.projenrc.js)
