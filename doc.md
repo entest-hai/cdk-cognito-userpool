@@ -123,6 +123,10 @@ tag and push
 it push --follow-tags origin main
 ```
 
+> [!IMPORTANT]
+
+> Task "release" failed when executing "git diff --ignore-space-at-eol --exit-code"
+
 ## Reference
 
 - [example lambda](https://github.com/seeebiii/projen-test/blob/main/.projenrc.js)
@@ -136,3 +140,7 @@ it push --follow-tags origin main
 - [testing cdk construct](https://docs.aws.amazon.com/cdk/v2/guide/testing.html)
 
 - [cdk assertion testing](https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.assertions-readme.html#asserting-annotations)
+
+- [tag-based bumps](https://github.com/projen/projen/issues/726)
+
+- [Bump Fails on Initial Version](https://github.com/projen/projen/issues/724)
